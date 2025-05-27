@@ -971,6 +971,19 @@ sound69:Play()
         stopanim()
         
     end
+elseif k == "leftbracket" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/A Hat in time OST [Seal the Deal] - Peace and Tranquility.mp3")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(8360493405)
+    else
+        stopanim()
+        
+    end
         end 
 end
 if k == "equals" then 
