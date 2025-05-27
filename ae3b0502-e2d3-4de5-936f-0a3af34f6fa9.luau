@@ -427,6 +427,27 @@ end
         end)
         return s.SoundId
     end
+           local exploit = "shitsploit"
+        pcall(function()
+            exploit = getexecutorname()
+        end)
+	local customasset = function(id)
+        if exploit ~= "CaetSploit" then
+        idwithoutthatbit= string.gsub(id,"Dances/","")
+        if not isfile(id) then 
+         writefile(id,game:HttpGet("https://github.com/Zaki23655/Music/raw/main/"..idwithoutthatbit))
+        end
+       repeat task.wait() until isfile(id)
+    end
+        local s = Instance.new("Sound")
+        s.Parent = game:GetService("RunService")
+        s.SoundId = getcustomasset(id)
+        task.spawn(function()
+            task.wait(1)
+            s:Destroy()
+        end)
+        return s.SoundId
+    end
            local function stopanim()
            if loopsplaying>0 then 
                 loopsplaying-=1
