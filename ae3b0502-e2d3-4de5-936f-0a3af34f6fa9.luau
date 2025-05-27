@@ -984,6 +984,19 @@ sound69:Play()
         stopanim()
         
     end
+elseif k == "comma" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/TUCA DONKA")
+        timeposcur = sound69.TimePosition 
+sound69:Play()
+        playanim(17498452296)
+    else
+        stopanim()
+        
+    end
         end 
 end
 if k == "equals" then 
