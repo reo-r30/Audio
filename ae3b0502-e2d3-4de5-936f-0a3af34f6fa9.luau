@@ -1,6 +1,6 @@
 --game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e  -ch")
 --task.wait(.5)
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/-gh 1029025 11748356 ")
+game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-gh 1029025 11748356 ")
 --task.wait(.9)
 --game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e -gh 96232184207447 96232184207447")
 task.wait(.9)
