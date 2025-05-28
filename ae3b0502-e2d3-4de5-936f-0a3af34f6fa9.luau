@@ -1,11 +1,11 @@
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e  -ch")
-task.wait(.5)
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e -gh 1029025 11748356 ")
+--game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e  -ch")
+--task.wait(.5)
+game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/-gh 1029025 11748356 ")
+--task.wait(.9)
+--game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e -gh 96232184207447 96232184207447")
 task.wait(.9)
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e -gh 96232184207447 96232184207447")
-task.wait(.9)
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e -gh 82245647057859 129397843345948")
-task.wait(.5)
+--game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e -gh 82245647057859 129397843345948")
+--task.wait(.5)
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Krystal Dance V3";
 	Duration = 1;
@@ -504,7 +504,8 @@ task.wait(.005)
 		    sound69.SoundId = customasset("Dances/rat.mp3")
 		    timeposcur = sound69.TimePosition 
 sound69:Play()
-		    playanim(106353328250763)
+coolparticles.Parent = char.Torso
+		    playanim(98260902889120)
 		else
 	        stopanim()
 		end
@@ -513,10 +514,11 @@ sound69:Play()
 stopanim()
 dancing = true
 task.wait(.005)
-sound69.SoundId = customasset("Dances/boogie.mp3")
+sound69.SoundId = customasset("Dances/xxanteria, isq - FUNKED UP (SLOWED) (320kbps).mp3")
 sound69.PlaybackSpeed = 2
 timeposcur = sound69.TimePosition 
 sound69:Play()
+coolparticles.Parent = char.Torso
 playanim(16769959846)
 		else
 stopanim()
@@ -930,6 +932,7 @@ elseif k == "u" then
         sound69.SoundId = customasset("Dances/bloodpop.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
+coolparticles.Parent = char.Torso
         playanim(132026285699359)
     else
         stopanim()
@@ -979,6 +982,7 @@ elseif k == "leftbracket" then
         sound69.SoundId = customasset("Dances/A Hat in time OST [Seal the Deal] - Peace and Tranquility.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
+coolparticles.Parent = char.Torso
         playanim(8360493405)
     else
         stopanim()
@@ -992,6 +996,7 @@ elseif k == "comma" then
         sound69.SoundId = customasset("Dances/TUCA DONKA.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
+coolparticles.Parent = char.Torso
         playanim(17498452296)
     else
         stopanim()
