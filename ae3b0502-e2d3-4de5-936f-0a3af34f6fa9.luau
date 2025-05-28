@@ -515,7 +515,6 @@ stopanim()
 dancing = true
 task.wait(.005)
 sound69.SoundId = customasset("Dances/xxanteria, isq - FUNKED UP (SLOWED) (320kbps).mp3")
-sound69.PlaybackSpeed = 2
 timeposcur = sound69.TimePosition 
 sound69:Play()
 coolparticles.Parent = char.Torso
